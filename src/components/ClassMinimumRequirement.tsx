@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './../consts';
+import { CLASS_LIST } from './../consts';
 
 function ClassMinimumRequirement({className}) {
   const [classReq, setClassReq] = useState({});

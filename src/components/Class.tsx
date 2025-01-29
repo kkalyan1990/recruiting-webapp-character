@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './../consts';
+import { CLASS_LIST } from './../consts';
 import ClassMinimumRequirement from './ClassMinimumRequirement';
 
 function Class({classCriteriaReq}) {

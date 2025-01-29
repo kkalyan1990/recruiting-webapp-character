@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './../consts.js';
 
 
 function Attribute() {

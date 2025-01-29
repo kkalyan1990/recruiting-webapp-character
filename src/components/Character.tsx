@@ -1,9 +1,7 @@
 
 
-import { Attributes, useState } from 'react';
-import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './../consts';
-import { access } from 'fs';
-import Attribute from './Attribute';
+import { useState } from 'react';
+import { CLASS_LIST } from './../consts';
 import { AttributeType } from '../types.js';
 import Class from './Class';
 import './../App.css';

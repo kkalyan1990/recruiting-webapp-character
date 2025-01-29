@@ -44,3 +44,41 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  width: 33%;
+  border-right: 1px solid white;
+  line-height: 30px;
+  padding-top: 100px;
+  /* display:block; */
+}
+.active {
+  color: red;
+}
+.inactive {
+  color: white;
+}
+.class-container {
+  display: flex  ;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.update-value-variable {
+  display: inline-flex;
+  width: 150px;
+  justify-content: left;
+}
+.button-container {
+  display: inline-flex;
+  /* width: 150px; */
+  padding-right: 20px;
+  line-height: 30px;
+  justify-content: left;
+}
+.button-container > button {
+  /* background-color: red; */
+}
